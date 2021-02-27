@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        header{
+            background: #566c2b;
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+        header a{
+            color: #fff;
+        }
+        header ul{
+            list-style:none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+
+        }
+        #logo{
+    margin:0 auto ;
+    font-size: 30px;
+        }
+        #menu li{
+            padding: 10px;
+        }
+        #Socia-icon li{
+            padding: 10px;
+        }
+       
+        .service-cont{
+            display: flex;
+            justify-content: space-between;
+        }
+        .call-to-action{
+            align-self: flex-start;
+            margin-top: auto;
+        }
+        .call-to-action a{
+            background: gray;
+            border: 2px solid transparent;
+            color: #fff;
+            padding: 8px 13px;
+            display: block;
+        }
+       .call-to-action a:hover{
+        color: gray;
+            background: transparent;
+            border: 2px solid gray;
+       }
+        .service-box{
+            border: 2px solid #eee;
+            padding: 10px;
+            flex-basis: 32px;
+            min-width: 370px;
+            flex-direction: column;
+        }
+
+            .service-box img{
+            width: 100%;
+        }
+        .service-box h3{
+            margin: 5px 0 10px;
+        }
+        #main{
+            display: flex;
+        }
+
+aside{
+    padding: 10px;
+flex: 0 0 20vw;
+background: beige;
+}
+
+footer{
+background: #566c2b;
+color: #fff;
+text-align: center;
+padding: 15px 0;
+}
+aside ul{
+    list-style: none;
+    padding: 0;
+
+}
+aside ul a{
+    color:#566c2b ;
+    display: block;
+   border-bottom: 1px solid gray;
+}
+article{
+    padding: 15px;
+}
+
+aside img{
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+       <nav id="menu">
+        <ul>
+            <li><a href="flexwebsite.html">Home</a></li>
+            <li><a href="About.html">About us</a></li>
+            <li><a href="contact.html">contact</a></li>
+
+        </ul>
+    </nav>
+    <div id="logo">
+        <a href="">Karan Kumar</a>
+    </div>
+    <nav id="Socia-icon">
+
+        <ul>
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/"><i class="fab fa-google-plus-square"></i></a></li>
+        </ul>
+        </nav>
+
+    </header>
+    <div id="main">
+        <aside class="">
+            <ul>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+            </ul>
+            <img src="lo.jpg" alt="">
+        </aside>
+        <article class="">
+            <h2>Welcome to website</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veritatis repellendus quo ratione quaerat, nesciunt iusto praesentium voluptates, impedit earum, quam inventore.
+             Ullam dolores eum, libero doloribus in aspernatur iure?</p>
+             <h2>Our Services</h2>
+             <div class="service-cont">
+                 <div class="service-box">
+                    <div class="service-img">
+                        <img src="B.jpg" alt="">
+                           </div>
+                           <div class="service-title">
+                              <h3>Web Designing</h3>
+                          </div>
+                          <div class="service-desc">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque deserunt laboriosam modi quas sit alias ad magni ratione ea rerum, doloremque nostrum delectus exercitationem fuga atque commodi voluptate ab earum.</p>
+          
+                          </div>
+                          <div class="call-to-action">
+                              <a href="">Read More</a>
+                          </div>
+                 </div>
+                 <div class="service-box">
+                    <div class="service-img">
+                        <img src="c.jpg" alt="">
+                           </div>
+                           <div class="service-title">
+                              <h3>Web Development</h3>
+                          </div>
+                          <div class="service-desc">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque deserunt laboriosam modi quas sit alias ad magni ratione ea rerum, doloremque nostrum delectus exercitationem fuga atque commodi voluptate ab earum.</p>
+          
+                          </div>
+                          <div class="call-to-action">
+                              <a href="">Read More</a>
+                          </div>
+                 </div>
+                 <div class="service-box">
+                    <div class="service-img">
+                        <img src="D.jpg" alt="">
+                           </div>
+                           <div class="service-title">
+                              <h3>Mobile App</h3>
+                          </div>
+                          <div class="service-desc">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque deserunt laboriosam modi quas sit alias ad magni ratione ea rerum, doloremque nostrum delectus exercitationem fuga atque commodi voluptate ab earum.</p>
+          
+                          </div>
+                          <div class="call-to-action">
+                              <a href="">Read More</a>
+                          </div>
+                 </div>
+            </div>
+       </article>
+   </div>
+   <footer>
+    Hello Karan@copy.com
+</footer>
+</body>
+</html>
